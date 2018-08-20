@@ -1,0 +1,6 @@
+name: Loreum ipsum
+type: module
+description: 'Loreum ipsum generator for Drupal'
+package: Development
+core: 8.x
+configure: loremipsum.form
