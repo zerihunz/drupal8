@@ -13,7 +13,9 @@ class HelloWorldController extends ControllerBase{
    *
    * @return string
    */
-  /*public function helloWorld(){
-    return ['#markup' => $this->t('Hello World')];
-  }*/
+  public function helloWorld(){
+    return [
+      '#markup' => $this->t('Hello World')
+    ];
+  }
 }
